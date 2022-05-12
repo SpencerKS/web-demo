@@ -3,7 +3,21 @@ nav {
     height: 2em;
     font-size: 1.3em;
 }
-
+.image-div {
+  display: flexbox;
+  justify-content: space-between;
+  background-color: bisque;
+  border-radius: 1em;
+}
+.image {
+  width: 20em;
+  height: 20em;
+  margin: 5em;
+  border-radius: 5em;
+}
+body {
+  background-color: azure;
+}
 #contact-form-div {
   width: 75%;
   height: auto;
@@ -14,7 +28,7 @@ nav {
   margin-right: auto;
   display: grid;
   justify-content: center;
-  background-color: gray;
+  background-color: bisque;
 }
 .contact-form-label {
     font-size: 1.3em;
